@@ -1,3 +1,7 @@
 python-dotenv
 pandas
 numpy
+pymongo
+certifi
+
+##-e . #It will referr setup.py , run setup code in it and setup our python project as package
