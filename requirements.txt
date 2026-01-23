@@ -6,4 +6,7 @@ certifi
 pymongo[srv]==3.12
 scikit-learn
 ipykernel
+PyYAML
+dill
+pyaml
 ##-e . #It will referr setup.py , run setup code in it and setup our python project as package
