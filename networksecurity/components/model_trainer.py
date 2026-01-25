@@ -22,6 +22,12 @@ from sklearn.linear_model import LogisticRegression
 
 import mlflow
 
+import dagshub #its used to connect our code repo to dagshub platform , which is like github but for data science projects
+# it helps to track mlflow experiments directly to dagshub from our local system
+#initializing dagshub repo for mlflow tracking
+dagshub.init(repo_owner='raunaqmittal', repo_name='network-security', mlflow=True)
+
+
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,
