@@ -2,7 +2,7 @@ venv
 .env
 Artifacts/
 mlruns/
-
+summary_notes.md
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
