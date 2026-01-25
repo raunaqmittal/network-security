@@ -13,4 +13,5 @@ mlflow
 dagshub #its used to connect our code repo to dagshub platform , which is like github but for data science projects
 uvicorn
 fastapi
+python-multipart
 ##-e . #It will referr setup.py , run setup code in it and setup our python project as package
